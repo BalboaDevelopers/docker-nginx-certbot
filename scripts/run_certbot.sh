@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Source in util.sh so we can have our nice tools
-. $(cd $(dirname $0); pwd)/util.sh
+. $(cd $(dirname $0); pwd)/utils.sh
 
 # We require an email to register the ssl certificate for
 if [ -z "$CERTBOT_EMAIL" ]; then
